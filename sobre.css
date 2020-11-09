@@ -13,16 +13,18 @@ body{
     width: 100%;
 }
 #inicio{
-    font-size: 200%;
+    font-size: 150%;
     padding:5%;
+}
+#inicio img{
+    width:40%;
 }
 #santos{
     text-align: center;
     font-size: 140%;
 }
 #st{
-    width: 41.03%
-}
+    width: 41.03%}
 p{
     text-align: justify;
 }
@@ -48,7 +50,7 @@ li:hover{
     padding: 0px 1%;
 }
 .duas{
-    width: 45%;
+    width: 41%;
     padding: 0px 3% 0px 3%;
 }
 .coluna img{
