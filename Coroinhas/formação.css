@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    background-color: rgba(252, 219, 134, 0.404);
+}
+#menu{
+    position: fixed;
+    width: 100%;
+}
+#redondo{
+    border-bottom-left-radius:7px ;
+    border-top-left-radius: 7px;
+}
+ul{
+    list-style: none;
+    margin:0px
+}
+li{
+    float: right;
+    padding:0.5%;
+    background-color:rgb(229, 146, 143);
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+li:hover{
+    background-color:red;
+}
