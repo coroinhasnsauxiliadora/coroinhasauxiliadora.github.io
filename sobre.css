@@ -1,6 +1,5 @@
 body{
     margin:0;
-    background-color: rgba(252, 219, 134, 0.404);
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
 }
@@ -15,16 +14,41 @@ body{
 #inicio{
     font-size: 150%;
     padding:5%;
+    background-color: rgba(252, 219, 134, 0.404);
 }
 #inicio img{
     width:40%;
 }
 #santos{
-    text-align: center;
+    text-align: left;
     font-size: 140%;
+    padding-top:2%;
 }
-#st{
-    width: 41.03%}
+.np1, .np2, .np3, .np4{
+    margin: 0px;
+    font-size: 138%;
+    text-align: center;
+    padding-left: 6%;
+    padding-right: 3%;
+}
+.np2{
+    padding-bottom: 1.2%;
+}
+#st img, #stra img{
+    padding-right: 3%;
+}
+#oracao{
+    background-color: rgba(252, 219, 134, 0.404);
+}
+#oracao img{
+    width:60%;
+    padding-top:40%;
+    padding-bottom: 53%;
+}
+.centro{
+    text-align: center;
+    line-height:  200%;
+}
 p{
     text-align: justify;
 }
@@ -53,8 +77,12 @@ li:hover{
     width: 41%;
     padding: 0px 3% 0px 3%;
 }
-.coluna img{
-    width:50%
+.tres{
+    width: 30%;
+    padding: 0px 0% 0px 1%;
+}
+#santos img{
+    width:40%
 }
 section{
     padding:2%;
