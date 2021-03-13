@@ -1,25 +1,86 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <link href="fotos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="Imagens/redondo-removebg-preview.png">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fotos</title>
 </head>
-
 <body>
-    <nav id="menu">
-        <ul>
-            <li><a href="sobre.html">Sobre</li>
-            <li><a href="Formação.html">Formação</a></li>
-            <li><a href="gincanas.html">Gincanas</a></li>
-            <li id="redondo"><a href="index.html">Início</a></li>
+    <nav>
+        <ul id="menu">
+            <li class="topo"><a href="index.html">Início</a></li>
+            <li class="topo"><a href="Formação.html">Formação</a></li>
+            <li class="topo"><a href="gincanas.html">Gincanas</a></li>
+            <li class="topo"><a href="fotos.html">Fotos</a></li>
+            <li class="topo"><a href="sobre.html">Sobre</a></li>
         </ul>
     </nav>
-    <header>
-        <p>Oi</p>
+    <header id="home">
+        <div class="butoes">
+            <button type="button" onclick="Mudarestado('')">2021</button>
+            <button type="button" onclick="Mudarestado('')">2020</button>
+            <button type="button" onclick="Mudarestado('xix')">2019</button>
+            <button type="button" onclick="Mudarestado('')">2018</button>
+        </div>
+        <section>
+            <div id="xix" class="fundo">
+                <h1>Investidura dos novos Coroinhas</h1>
+                <h3>Clique <a href="">aqui</a> para ver mais fotos.</h3>
+                <ul class="lista-img">
+                    <li><a href="#img1"><img src="Fotos/Investidura 2019/img2.jpg" class="min"></a></li>
+                    <li><a href="#img2"><img src="Fotos/Investidura 2019/img3.jpg" class="min"></a></li>
+                    <li><a href="#img3"><img src="Fotos/Investidura 2019/img4.jpg" class="min"></a></li>
+                    <li><a href="#img4"><img src="Fotos/Investidura 2019/img5.jpg" class="min"></a></li>
+                    <li><a href="#img5"><img src="Fotos/Investidura 2019/img6.jpg" class="min"></a></li>
+                </ul>
+            </div>
+            <div class="lbox" id="img1">
+                <div class="box_img">
+                    <a href="#img4" class="btn" id="prev">&#171;</a>
+                    <a href="#home" class="btn" id="close">X</a>
+                    <img src="Fotos/Investidura 2019/img2.jpg">
+                    <a href="#img2" class="btn" id="next">&#187;</a>
+                </div>
+            </div>
+            <div class="lbox" id="img2">
+                <div class="box_img">
+                    <a href="#img1" class="btn" id="prev">&#171;</a>
+                    <a href="#home" class="btn" id="close">X</a>
+                    <img src="Fotos/Investidura 2019/img3.jpg">
+                    <a href="#img3" class="btn" id="next">&#187;</a>
+                </div>
+            </div>
+            <div class="lbox" id="img3">
+                <div class="box_img">
+                    <a href="#img2" class="btn" id="prev">&#171;</a>
+                    <a href="#home" class="btn" id="close">X</a>
+                    <img src="Fotos/Investidura 2019/img4.jpg">
+                    <a href="#img4" class="btn" id="next">&#187;</a>
+                </div>
+            </div>
+            <div class="lbox" id="img4">
+                <div class="box_img">
+                    <a href="#img3" class="btn" id="prev">&#171;</a>
+                    <a href="#home" class="btn" id="close">X</a>
+                    <img src="Fotos/Investidura 2019/img5.jpg">
+                    <a href="#img5" class="btn" id="next">&#187;</a>
+                </div>
+            </div>
+            <div class="lbox" id="img5">
+                <div class="box_img">
+                    <a href="#img4" class="btn" id="prev">&#171;</a>
+                    <a href="#home" class="btn" id="close">X</a>
+                    <img src="Fotos/Investidura 2019/img6.jpg">
+                    <a href="#img1" class="btn" id="next">&#187;</a>
+                </div>
+            </div>
+        </section>
     </header>
 </body>
+<script src="fotos.js"></script>
 
 </html>
