@@ -1,35 +1,76 @@
 body{
     margin:0;
-    background-color: rgba(252, 219, 134, 0.404);
+    background-color: #EBEBEB;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
 }
+p{
+    padding: 2%;
+}
+
 /* Menu*/
 *{
     margin:0;
-    padding:0 ;
+    padding:0;
 }
 #menu{
-    width: 100%;
-    list-style: none;
-    display: flex;
-    background-color:rgba(212, 29, 23, 0.76);
-    z-index: 10;
     position: fixed;
+    width: 100vw;
+    background-color:#c1272d;
+    display: flex;
     top:0;
+    z-index: 10;
 }
-li{
+.topo{
     padding:1% 3% 1% 3%;
     margin-left: auto;
     margin-right: auto;
+}
+#topoa0 img{
+    width: 100%;
+
+
+}
+#topoa0{
+    width: 6%;
+    padding: 0.4% 0% 0% 2%;
+    margin: 0%;
+    text-align: center;
+    align-items: center;
+}
+#topoa0:hover{
+    background-color: none;
+}
+#topoa1, #topoa2, #topoa3, #topoa4, #topoa5{
+    width: 100%;
+    height: 100%;
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
-    font-weight: bolder;
-    
+    font-weight: bolder; 
+    padding: 10% 10% 10% 10%;
 }
 
 a{
     text-decoration: none;
     color:black;
+
 }
-li:hover{
+.topo:hover{
     background-color:red;
 }
+/*Rodapé*/
+#rodape{
+    position: relative;
+    bottom:0;
+    left: 0;
+    background-color:#c1272d;
+    text-align: center;
+    align-items: center;
+}
+#if img{
+    width: 24%;
+}
+#if{
+    font-size: 1.6em;
+    padding: 1em;
+}    

@@ -1,49 +1,142 @@
 body{
     margin:0;
+    background-color: #EBEBEB;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
 }
+p{
+    padding: 2%;
+}
+
 /* Menu*/
 *{
     margin:0;
-    padding:0 ;
+    padding:0;
 }
 #menu{
-    width: 100%;
-    list-style: none;
-    display: flex;
-    background-color:rgba(212, 29, 23, 0.76);
-    z-index: 10;
     position: fixed;
+    width: 100vw;
+    background-color:#c1272d;
+    display: flex;
     top:0;
+    z-index: 10;
 }
-li{
+.topo{
     padding:1% 3% 1% 3%;
     margin-left: auto;
     margin-right: auto;
+}
+#topoa0 img{
+    width: 100%;
+}
+#topoa0{
+    width: 6%;
+    padding: 0.4% 0% 0% 2%;
+    margin: 0%;
+    text-align: center;
+    align-items: center;
+}
+#topoa0:hover{
+    background-color: none;
+}
+#topoa1, #topoa2, #topoa3, #topoa4, #topoa5{
+    width: 100%;
+    height: 100%;
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
-    font-weight: bolder;
+    font-weight: bolder; 
+    padding: 10% 10% 10% 10%;
 }
+
 a{
     text-decoration: none;
     color:black;
+
 }
-li:hover{
+.topo:hover{
     background-color:red;
 }
+/*Capa*/
 #inicio{
-    font-size: 150%;
-    padding:5%;
-    background-color: rgba(252, 219, 134, 0.404);
+
+    text-align: center;
+    margin: 15vh 2% 2% 2%;
 }
 #inicio img{
-    width:40%;
+    width:50%;
 }
+#inicio h2{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Santos*/
+#santos{
+    margin: 6% 3% 3% 3%;
+
+}
+#tarcisio{
+    margin: 3% 3% 6% 3%;
+    font-size: 1.5em;
+    text-align: justify;
+    display: flex;
+}
+#tarcisio h1{
+    position: relative;
+    bottom:1.7em;
+}
+#tarcisio p{
+    position: relative;
+    left: 2%;
+}
+#tarcisio img{
+    width: 12%;
+    left: 5%;
+    padding: 2% 0 0 1%;
+    position: absolute;
+}
+#tereza{
+    margin: 3%;
+    font-size: 1.5em;
+    text-align: justify;
+    display: flex;
+}
+#tereza h1{
+    position: relative;
+    bottom:1.7em;
+    left: 79vw;
+    text-align: right;
+}
+#tereza p{
+    position: relative;
+    right: 12.5%;
+}
+#tereza img{
+    width: 13%;
+    right: 5%;
+    padding: 2% 0 0 0%;
+    position: absolute;
+}
+/*Oração*/
+#oracao{
+    margin-left:auto ;
+    margin-right:auto ;
+    text-align: center;
+    font-size:1.5em;
+    width: 23%;
+    margin-bottom: 2%;
+}
+#oracao h1{
+    font-size: 1.7em;
+}
+/*Resto
 #santos{
     text-align: left;
     font-size: 140%;
     padding-top:2%;
+    padding:2%;
+    font-size:140%;
+    z-index: 9;
 }
 .np1, .np2, .np3, .np4{
     margin: 0px;
@@ -59,7 +152,9 @@ li:hover{
     padding-right: 3%;
 }
 #oracao{
-    background-color: rgba(252, 219, 134, 0.404);
+    padding:2%;
+    font-size:140%;
+    z-index: 8;
 }
 #oracao img{
     width:60%;
@@ -86,9 +181,20 @@ p{
     padding: 0px 0% 0px 1%;
 }
 #santos img{
-    width:40%
+    width:40%;
+
 }
-section{
-    padding:2%;
-    font-size:140%;
+*/
+/*Rodapé*/
+#rodape{
+    background-color:#c1272d;
+    text-align: center;
+    align-items: center;
+}
+#rodape img{
+    width: 24%;
+}
+#imagens-rodape{
+    font-size: 1.6em;
+    padding: 1em;
 }
